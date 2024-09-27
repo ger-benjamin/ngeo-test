@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ngeo with lit usage example</title>
+    <link rel="stylesheet" href="../../node_modules/ol/ol.css" />
+    <link rel="stylesheet" href="../common.css" />
+    <link rel="stylesheet" href="./lit.css" />
+  </head>
+  <body>
+    <p>ngeo with lit usage example.</p>
+    <div id="map"></div>
+    <div class="gmf-app-tools">
+      <gmf-lidar-button slot="tool-button"></gmf-lidar-button>
+      <gmf-lidar-panel slot="tool-panel-lidar"></gmf-lidar-panel>
+      <gmf-lidar-footer id="lidar-footer" slot="footer-lidar"></gmf-lidar-footer>
+    </div>
+    <script type="module" src="./lit.ts"></script>
+  </body>
+</html>

@@ -22,7 +22,8 @@
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "dependencies": {
-    "ngeo": "^2.9.0-latest.20240924T125408Z.043ec1d2b"
+    "ngeo": "^2.9.0-latest.20240924T125408Z.043ec1d2b",
+    "@geoblocks/sources": "0.3.4"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
